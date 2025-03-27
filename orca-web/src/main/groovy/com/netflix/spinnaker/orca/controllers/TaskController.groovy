@@ -265,7 +265,8 @@ class TaskController {
    * @param pipelineName (optional) Only includes executions that with this pipeline name.
    * @param eventId (optional) Only includes executions that were triggered by a trigger with this
    * eventId. This only applies to triggers that return a response message when called.
-   * @param trigger (optional) Only includes executions that were triggered by a trigger that
+   * @param trigger (optional) Only includes executions
+   * that were triggered by a trigger that
    * matches the subset of fields provided by this value. This value should be a base64-encoded
    * string of a JSON representation of a trigger object. The comparison succeeds if the execution
    * trigger contains all the fields of the input trigger, the fields are of the same type, and each

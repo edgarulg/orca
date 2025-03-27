@@ -18,5 +18,7 @@ package com.netflix.spinnaker.orca.sql.pipeline.persistence
 
 import com.netflix.spinnaker.kork.exceptions.UserException
 
+
+
 class ForeignExecutionException(executionId: String, ownerPartition: String, localPartition: String?) :
   UserException("Attempted to persist an execution that is not owned by this instance: $executionId is currently owned by $ownerPartition but this instance can handle $localPartition")

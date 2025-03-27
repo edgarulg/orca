@@ -42,6 +42,7 @@ data class PipelineRefTrigger(
   private var other: MutableMap<String, Any> = mutableMapOf()
   private var resolvedExpectedArtifacts: MutableList<ExpectedArtifact> = mutableListOf()
 
+
   override fun getType(): String = type
 
   override fun getCorrelationId(): String? = correlationId

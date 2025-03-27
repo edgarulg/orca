@@ -15,6 +15,7 @@
  */
 package com.netflix.spinnaker.orca.sql.pipeline.persistence
 
+
 /**
  * An iterator that can fetch paginated data transparently to clients.
  */
